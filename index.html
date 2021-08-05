@@ -15,60 +15,64 @@
 
 </head>
     <body>
-        
-        <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+      <section id="intro">
+        <img id="logo" src="Pep Asia Logo- White background.jpeg">
 
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-           
-        </div>
+        <nav class="navbar-inverse" style="position:sticky;float:right;top:0;z-index:99999">
 
-        <div class="collapse navbar-collapse" id="myNavbar">
+            <div class="navbar-header">
+                
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+               
+            </div>
+    
+            <div class="collapse navbar-collapse" id="myNavbar">
+                
            <ul class="nav navbar-nav">
+            
                 <li><a href="#welcome">HOME</a></li>
                 <li><a href="#menu">MENU</a></li>
                 <li><a href="https://www.zomato.com/chennai/pep-asia-wok-and-grill-t-nagar">ORDER NOW</a></li>
                 <li><a href="#gallery">GALLERY</a></li>
                 <li><a href="#new">WHAT'S NEW</a></li>
-                <li><a href="#contact">LOCATION AND CONTACT</a></li>
-                
+                <li><a href="#contact">LOCATION</a></li>
+            
             </ul>
         </div>
-       
-        </nav>
-        <li><img id="logo" src="Pep Asia Logo- White background.jpeg"></li>
+       </nav>
+    </section>
             <section id="welcome">
               
         <div id="mycarousel" class="carousel slide">
         <div class="carousel-inner">
             <div class="item active">
                 <center>
-                        <img src="Asian Fried Chicken Wings.jpg" class="img-responsive">
+                        <img id="caro" src="Asian Fried Chicken Wings.jpg" class="img-responsive">
                     <div class="carousel-content">
                     </div>
                 </center>
             </div>
             <div class="item">
                 <center>
-                   <img src="Mee Goreng.jpg" class="img-responsive">
+                   <img id="caro" src="Mee Goreng.jpg" class="img-responsive">
                     <div class="carousel_content">
                     </div>
                 </center>
             </div>
             <div class="item">
                 <center>
-                   <img src="Singapore Chicken Rice.jpg" class="img-responsive">
+                   <img id="caro" src="Singapore Chicken Rice.jpg" class="img-responsive">
                     <div class="carousel_content">
                     </div>
                 </center>
             </div>
             <div class="item">
                 <center>
-                   <img src="Dim Sum (1).jpg" class="img-responsive">
+                   <img id="caro" src="Dim Sum (1).jpg" class="img-responsive">
                     <div class="carousel_content">
                     </div>
                 </center>
@@ -87,180 +91,147 @@
   <br><br>
   
 </section>
+<section id="new">
+       
+    <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <h2 class="text-capitalize">Our Signature Dishes</h2>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#dim_sum">
+    <img src="Dim Sum (1).jpg" class="img-responsive">
+    <hr>
+    <p class="text-primary">Dim Sum</p>
+
+</div>
+
+<div class="modal fade" id="dim_sum">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">DIM SUM</h4>
+            </div>
+            <div class="modal-body">
+                <img src="Dim Sum (1).jpg" class="img-responsive img_modal">
+                <p class="p_modal">Dim sum is a traditional Chinese meal made up of small plates of dumplings<br>
+                    <a href="https://www.zomato.com/chennai/pep-asia-wok-and-grill-t-nagar"><b>ORDER NOW</b></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#mee_goreng">
+    <img src="Mee Goreng.jpg" class="img-responsive">
+    <hr>
+    <p class="text-primary">Mee Goreng</p>
+</div>
+
+<div class="modal fade" id="mee_goreng">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Mee Goreng</h4>
+            </div>
+            <div class="modal-body">
+                <img src="Mee Goreng.jpg" class="img-responsive img_modal">
+                <p class="p_modal">Mee Goreng is a fried noodles one of our restaurent's best dish.<br>
+                    <a href="https://www.zomato.com/chennai/pep-asia-wok-and-grill-t-nagar"><b>ORDER NOW</b></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#asian_fried_chicken_wings">
+    <img src="Asian Fried Chicken Wings.jpg" class="img-responsive">
+    <hr>
+    <p class="text-primary">Asian Fried Chicken Wings</p>
+
+</div>
+
+<div class="modal fade" id="asian_fried_chicken_wings">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Asian Fried Chicken Wings</h4>
+            </div>
+            <div class="modal-body">
+                <img src="Asian Fried Chicken Wings.jpg" class="img-responsive img_modal">
+                <p class="p_modal">This is a continental dish mostly liked by our visitors<br>
+                    <a href="https://www.zomato.com/chennai/pep-asia-wok-and-grill-t-nagar"><b>ORDER NOW</b></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+    
+     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#singapore">
+    <img src="Singapore Chicken Rice.jpg" class="img-responsive">
+    <hr>
+    <p class="text-primary">Sigapore Chicken Rice</p>
+
+</div>
+
+<div class="modal fade" id="singapore">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Singapore Chicken Rice</h4>
+            </div>
+            <div class="modal-body">
+                <img src="Singapore Chicken Rice.jpg" class="img-responsive img_modal">
+                <p class="p_modal"><br>
+                    <a href="https://www.zomato.com/chennai/pep-asia-wok-and-grill-t-nagar"><b>ORDER NOW</b></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+
        
     <br> 
     <section id="menu">
-        <button onclick="view();" id="view_menu" class="btn btn-danger">View Menu</button>
+        <button onclick="view();" id="view_menu" class="btn btn-success">View Menu</button>
     </section>
-    
+    <br><br>
 
     <section id="gallery">
-        <h2>OUR GALLERY OF FOODS</h2>
-        <img id="dip" src="_RK65391 copy.jpg">
-        <img id="dip" src="_RK65465 copy.jpg">
-        <br>
-        <img id="dip" src="_RK65499 copy.jpg">
-        <img id="dip" src="_RK65518 copy.jpg">
-        <img id="dip" src="Asian Fried Chicken Wings.jpg">
-        <br>
-        <img id="dip" src="ASIANFRIEDCHICKENWINGS.jpg">
-        <img id="dip" src="CLASSICCHICKENDIMSUM.jpg">
-        <br>
-        <img id="dip" src="CORNKERNALFIERYSZECHWANPEPPER.jpg">
-        <img id="dip" src="Dim Sum (1).jpg">
-        <img id="dip" src="FIERYSICHUANPEPPERPRAWNS.jpg">
-        <img id="dip" src="FREIDKWAYTEOWMEE.jpg">
-        <br>
-        <img id="dip" src="FREIDKWAYTEOWMEEPRAWNS.jpg">
-        <img id="dip" src="HARGOW.jpg">
-        <br>
-        <img id="dip" src="HONEYSRIRACHALOTUSSTEM.jpg">
-        <img id="dip" src="HONEYSRIRACHALOTUSSTEM1.jpg">
-        <img id="dip" src="HOTANDSOURVEGSOUPBEIJINGSTYLE.jpg">
-        <img id="dip" src="KEKAPCHILLICHICKEN.jpg">
-        <br>
-        <img id="dip" src="KEKAPCHILLITOFU.jpg">
-        <img id="dip" src="KUNGPAOCHICKEN.jpg">
-        <img id="dip" src="KUNGPAOTOFUANDSTRAWMUSHROOM.jpeg">
-        <br>
-        <img id="dip" src="KUNGPAOTOFUANDSTRAWMUSHROOM.jpg">
-        <img id="dip" src="MALAYSIANSTIRFRIEDSAMBALHARICOTBEANS.jpg">
-        <br>
-        <img id="dip" src="Mee Goreng.jpg">
-        <img id="dip" src="NASIGORENGCHICKEN.jpg">
-        <img id="dip" src="NASIGORENGMIX.jpg">
-        <br>
-        <img id="dip" src="NASIGORENGVEG.jpg">
-        <img id="dip" src="PRAWNTOMYUMSOUP.jpg">
-        <img id="dip" src="SAMBALTOFU.jpg">
-        <br>
-        <img id="dip" src="Singapore Chicken Rice.jpg">
-        <img id="dip" src="SINGAPORERICENOODLEMIX.jpg">
-        <br>
-        <img id="dip" src="SINGAPORERICENOODLEPRAWNS.jpg">
-        <img id="dip" src="SINGAPORERICENOODLES.jpg">
-        <img id="dip" src="SOTOAYAM.jpg">
-        <img id="dip" src="SUIMAICHICKEN.jpg">
-        <br>
-        <img id="dip" src="SWEETPOTATOMALACHILLI.jpg">
-        <img id="dip" src="SZECHWANPEPPERFRIEDRICE.jpg">
-        <br>
-        <img id="dip" src="SZECHWANPEPPERFRIEDRICEPRAWN.jpg">
-        <img id="dip" src="THAICHILLIGARLICFRIEDRICEWITHHOLYBASIL.jpg">
-        <img id="dip" src="TOMKHASOUPPRAWNS.jpg">
-        <br>
-        <img id="dip" src="TOMKHASOUPVEG.jpg">
-        <img id="dip" src="VEGTOMYUMSOUP.jpg">
-        <br><br><br>
-        <img id="com" src="Pep Asia - Wok And Grill reviews, T. Nagar, Chennai _ Zomato - Google Chrome 17_07_2021 09_33_44.png">
-        <br><br>
-        <img id="com" src="Pep Asia - Wok And Grill reviews, T. Nagar, Chennai _ Zomato - Google Chrome 17_07_2021 09_33_58.png">
-        <br><br>
-        <img id="com" src="Pep Asia - Wok And Grill reviews, T. Nagar, Chennai _ Zomato - Google Chrome 17_07_2021 09_34_16.png">
-        <br><br>
-        <img id="com" src="Pep Asia - Wok And Grill reviews, T. Nagar, Chennai _ Zomato - Google Chrome 17_07_2021 09_34_07.png">
-
+      
+        <button onclick="gallery();" id="veiw_gallery"  class="btn btn-danger">View gallery</button>        
+               
+                <br><br><br>
+                <img id="com" src="Pep Asia - Wok And Grill reviews, T. Nagar, Chennai _ Zomato - Google Chrome 17_07_2021 09_33_44.png">
+                <br><br>
+                <img id="com" src="Pep Asia - Wok And Grill reviews, T. Nagar, Chennai _ Zomato - Google Chrome 17_07_2021 09_33_58.png">
+                <br><br>
+                <img id="com" src="Pep Asia - Wok And Grill reviews, T. Nagar, Chennai _ Zomato - Google Chrome 17_07_2021 09_34_16.png">
+                <br><br>
+                <img id="com" src="Pep Asia - Wok And Grill reviews, T. Nagar, Chennai _ Zomato - Google Chrome 17_07_2021 09_34_07.png">   
+          
     </section>
-    <section id="new">
-       
-            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h2 class="text-capitalize">Our Signature Dishes</h2>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#dim_sum">
-            <img src="Dim Sum (1).jpg" class="img-responsive">
-            <hr>
-            <p class="text-primary">Dim Sum</p>
-    
-        </div>
-    
-        <div class="modal fade" id="dim_sum">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">DIM SUM</h4>
-                    </div>
-                    <div class="modal-body">
-                        <img src="Dim Sum (1).jpg" class="img-responsive img_modal">
-                        <p class="p_modal">Dim sum is a traditional Chinese meal made up of small plates of dumplings<br>
-                            <a href="https://www.zomato.com/chennai/pep-asia-wok-and-grill-t-nagar"><b>ORDER NOW</b></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#mee_goreng">
-            <img src="Mee Goreng.jpg" class="img-responsive">
-            <hr>
-            <p class="text-primary">Mee Goreng</p>
-        </div>
-    
-        <div class="modal fade" id="mee_goreng">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Mee Goreng</h4>
-                    </div>
-                    <div class="modal-body">
-                        <img src="Mee Goreng.jpg" class="img-responsive img_modal">
-                        <p class="p_modal">Mee Goreng is a fried noodles one of our restaurent's best dish.<br>
-                            <a href="https://www.zomato.com/chennai/pep-asia-wok-and-grill-t-nagar"><b>ORDER NOW</b></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#asian_fried_chicken_wings">
-            <img src="Asian Fried Chicken Wings.jpg" class="img-responsive">
-            <hr>
-            <p class="text-primary">Asian Fried Chicken Wings</p>
-    
-        </div>
-    
-        <div class="modal fade" id="asian_fried_chicken_wings">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Asian Fried Chicken Wings</h4>
-                    </div>
-                    <div class="modal-body">
-                        <img src="Asian Fried Chicken Wings.jpg" class="img-responsive img_modal">
-                        <p class="p_modal">This is a continental dish mostly liked by our visitors<br>
-                            <a href="https://www.zomato.com/chennai/pep-asia-wok-and-grill-t-nagar"><b>ORDER NOW</b></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section id="good">
+        <h3>‘ PEP ASIA ‘ .... WOK and GRILL , is the new kid on the block offering takeaway food which is predominantly Malaysian , Chinese and Thai food .<br>
+
+            I can’t be happier as Chef Arvind Raja is someone for whom I have huge respect for his immense knowledge <br>on South East Asian Cuisine . I was so very impressed with the way the menu <br>has been curated ! Absolutely interesting and unique .<br>
             
-             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#singapore">
-            <img src="Singapore Chicken Rice.jpg" class="img-responsive">
-            <hr>
-            <p class="text-primary">Sigapore Chicken Rice</p>
-    
-        </div>
-    
-        <div class="modal fade" id="singapore">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Singapore Chicken Rice</h4>
-                    </div>
-                    <div class="modal-body">
-                        <img src="Singapore Chicken Rice.jpg" class="img-responsive img_modal">
-                        <p class="p_modal"><br>
-                            <a href="https://www.zomato.com/chennai/pep-asia-wok-and-grill-t-nagar"><b>ORDER NOW</b></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
+            Grills had Grilled Spicy Fresh Chilli Jumbo Prawns<br> which has been marinated and grilled to perfection .<br> Mala Chicken skewers is an impressive innovation . <br>
+            
+            Soto Ayam was terrific with a boiled egg <br>added to the soup which made it seem like a wholesome<br> meal by itself and the broth had clear flavours !<br>
+            
+            Kicap Chilli Chicken simply superb ! <br>Chef Arvind s play with unique flavours <br>makes the dish come alive .<br> Mushroom Mapo Tofu yet another stunner . <br>
+            
+            Nasi Lemak with fried <br>chicken wings was packed so compactly<br> that it took me back to Sarawak Islands where I<br> have learnt to make this dish .<br> The fried chicken wings were nice and plump unlike <br>scrawny wings given in takeways at times and the highlight<br> was the Anchovy sauce which was finger licking good . <br>Roasted peanuts and a boiled egg made the Nasi Lemak a winner straightaway .<br> 
+            
+            Kway Teow was authentic with the flat noodles tossed perfectly , <br>Thai Chilli Basil fried rice nice and spicy !<br> SOP followed stringently and all dishes neatly packed . <br>
+            
+            Thanks Chef Arvind for this fabulous South East Asian meal <br>and my best wishes to you and Team Pep Asia !<br> I’m sure PEP ASIA will rock the city soon.<br>
+            
+            GOD BLESS .....</h3>     
     </section>
     
     <br><br><br><br>

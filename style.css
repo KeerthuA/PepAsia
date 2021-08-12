@@ -13,7 +13,7 @@ h2{
 }
 #caro
 {
-    height: 450px;
+    height: 500px;
     width: 1000px;
 }
 
@@ -51,11 +51,7 @@ h2{
     padding-bottom: 2px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-#com
-{
-    height: 250px;
-    width: 500px;
-}
+
 
 #view_menu
 {
@@ -73,5 +69,17 @@ h2{
     background-color: white;
 }
 
+#lot
+{
+    height: 1000px;
+    width: 1000px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#lit
+{
+    width:800px ;
+    height: 500px;
+}
 
 

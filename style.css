@@ -84,14 +84,19 @@ h2{
 
 #insta
 {
-    background-color:thistle;
+    background-color:black;
+    padding-left: 5px;
+    padding-right: 5px;
     font-size: 23px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+#pg
+{
+    width: 250px;
+    height: 250px;
+}
 #look
 {
     width: 50px;
     height: 50px;
 }
-
